@@ -119,7 +119,9 @@ function fn_loginCheck()
 				
 				if(code == 0)
 				{
-					location.href = "/board/list";
+					alert("로그인 완료");
+					location.href = "/";
+					//location.href = "/board/list";
 				}
 				else
 				{

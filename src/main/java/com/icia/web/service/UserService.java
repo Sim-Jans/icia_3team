@@ -132,10 +132,12 @@ public class UserService
 		try
 		{
 			user = userDao.userSelect(userId);
+			
 		}
 		catch(Exception e)
 		{
 			logger.error("[UserService] userSelect Exception", e);
+			
 		}
 		
 		return user;
