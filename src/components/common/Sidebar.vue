@@ -29,6 +29,10 @@
               <router-link class="nav-link" :to="{name: 'Home'}" exact>Home</router-link>
 
               <router-link class="nav-link" :to="{name: 'About'}" exact>About</router-link>
+
+              <router-link class="nav-link" :to="{name: 'Login'}" exact>로그인</router-link>
+
+              <router-link class="nav-link" :to="{name: 'Join'}" exact>회원가입</router-link>
               
               <a class="nav-link" href="/">
                 고객센터

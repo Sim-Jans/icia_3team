@@ -4,6 +4,10 @@ import Home from "../views/Home.vue";
 
 const View = () => import(/* webpackChunkName: "about" */ "../views/viewBoard/View.vue")
 
+const Login = () => import(/* webpackChunkName: "about" */ "../views/login/Login.vue")
+
+const Join = () => import(/* webpackChunkName: "about" */ "../views/login/Join.vue")
+
 const routes = [
   {
     path: "/",
@@ -23,6 +27,16 @@ const routes = [
     path: "/view",
     name: "View",
     component: View
+  },
+  {
+    path: "/login",
+    name: "Login",
+    component: Login
+  },
+  {
+    path: "/join",
+    name: "Join",
+    component: Join
   }
 ];
 
